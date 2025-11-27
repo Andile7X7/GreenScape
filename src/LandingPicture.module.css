@@ -1,0 +1,6 @@
+.Container{
+    width: 96.2vw;
+    height: 79vh;
+    background-size: cover;
+    background-image: url("../src/assets/Image1.webp");
+}

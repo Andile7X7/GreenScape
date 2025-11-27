@@ -1,0 +1,21 @@
+.Divider{
+    width: 50vw;
+    height: 1vh;
+    background-color: #39b11b;
+    margin: 5% auto 0 auto;
+}
+.UsIcon{
+    margin: 0 auto;
+}
+.Icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.Icon1 p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: larger;
+}
