@@ -7,6 +7,7 @@ import { IoIosConstruct } from "react-icons/io";
 function Section3(){
     return(
         <>
+        <div className={styles.Wrapper}>
         <div className={styles.Divider}>
          </div>
          <h2>How We Create your<br/> Dream Place</h2>
@@ -40,7 +41,7 @@ function Section3(){
             <p>Construction begins and your dreams become reality</p>
             </div>
          </div>
-        
+        </div>
         </>
     );
 }

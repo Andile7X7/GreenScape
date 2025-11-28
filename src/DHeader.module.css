@@ -1,0 +1,30 @@
+.Header img{
+    width: 10%;
+}
+h6{
+    color: #39b11b;
+}
+.Header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(45, 55, 64);
+    color: white;
+}
+.Wrapper{
+    background-color: rgb(45, 55, 64);
+        margin-left: 10%;
+        margin-right: 10%;
+}
+.Nav{
+    width: 70%;
+}
+.Nav li{
+    display: inline-block;
+    margin-right: 5%;
+    box-sizing: border-box;
+}

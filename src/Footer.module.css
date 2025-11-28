@@ -6,13 +6,15 @@
     align-items: center;
     color: #39b11b;
     position: relative;
+    margin: 0 auto;
+    width: 50%;
 }
 .Wrapper{
     background-color: rgb(45, 55, 64);
 }
 .Logo{
-    width: 40%;
-    height: 60%;
+    width: 30%;
+    height: 70%;
     background-image: url("../src/assets/drawing.svg");
     margin-left: 5%;
     background-position: center;
@@ -28,6 +30,7 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    padding: 1%;
 }
 .Icon{
     display: flex;
@@ -38,5 +41,12 @@
     margin-right: 10%;
     color: rgb(176, 172, 172);
     text-align: center;
+    padding-bottom: 3%;
+}
+@media (min-width:800px) {
 
+    .Wrapper{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }

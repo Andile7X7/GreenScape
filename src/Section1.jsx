@@ -7,7 +7,8 @@ import { MdOutlineQuestionMark } from "react-icons/md";
 
 function Section1(){
     return(
-        <div>
+        
+            <div className={styles.Wrapper}>
             <div className={styles.Divider}>
             </div>
                 <div className={styles.Icon1}>
@@ -26,7 +27,9 @@ function Section1(){
                  </div>
 
         </div>
+        
     );
+
 }
 
 export default Section1;

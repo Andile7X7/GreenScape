@@ -19,3 +19,11 @@
     margin-right: 10%;
     font-size: larger;
 }
+@media (min-width:800px) {
+
+    .Wrapper{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+}

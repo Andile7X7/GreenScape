@@ -9,6 +9,7 @@ import image3 from "../src/assets/Boma.jpg"
 function Section2(){
     return(
         <>
+        <div className={styles.Wrapper}>
         <div className={styles.Divider}>
         </div>
         <div className={styles.Icon1}>
@@ -29,7 +30,7 @@ function Section2(){
             <h1 id={styles.Text}>Boma's &<br/>Entertainment</h1>
              <button id={styles.Button}>Get In Contact <IoIosCall/></button>
         </div>
-
+        </div>
 
         </>
 

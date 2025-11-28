@@ -34,11 +34,12 @@ function Footer(){
                 <div className={styles.Icon}>
                 <FaMapLocationDot size={40} style={{color:"#39b11b"}}/>
                 </div>
-                <p>101 Oak Road, Tshwan</p>
+                <p>101 Oak Road, Tshwane</p>
         </div>
 
         <div className={styles.FooterContent}>
             <p>
+                <br/>
                2025 &copy; GreenScape Solutions || All Rights Reserved
             </p>
         </div>

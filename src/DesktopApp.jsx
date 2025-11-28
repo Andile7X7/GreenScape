@@ -12,22 +12,18 @@ import DHeader from './DHeader.jsx'
 import DLandingPage from './DLandingPage.jsx'
 
 
-function App() {
-  const [MenuOpen, setMenuOpen] = useState(false);
-
-  return (
-    <>
-      <Header MenuOpen={MenuOpen} setMenuOpen ={setMenuOpen}/>
-      <HiddenMenu MenuOpen = {MenuOpen}/>
-      <LandingPicture/>
+function DesktopApp(){
+    return(
+        <>
+      <DHeader/>
+      <DLandingPage/>
       <Section1/>
       <Section2/>
       <Section3/>
       <Form/>
       <Footer/>
-    </>
-  )
-
+        </>
+    );
 }
 
-export default App
+export default DesktopApp;

@@ -11,7 +11,7 @@
     margin-top: 5%;
 }
 #Image1{
-    width: 95vw;
+    width: 100%
 
 }
 .Image{
@@ -48,4 +48,18 @@
     background-color: #39b11b;
     border-radius: 0.7rem;
     border: none;
+}
+@media (min-width:800px) {
+
+    .Wrapper{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #Text{
+
+        font-size: 7em;
+    }
+
+    
 }
