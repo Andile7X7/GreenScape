@@ -1,6 +1,6 @@
 .Container{
-    width: 96.2vw;
-    height: 79vh;
+    width: 100%;
+    height: 80vh;
     background-size: cover;
     background-image: url("../src/assets/Image1.webp");
 }
