@@ -14,9 +14,22 @@
     width: 100%
 
 }
+#Image3{
+    width: 100%
+
+}
+#Image2{
+    width: 100%
+
+}
+.ImageWrapper{
+        display: flex;
+        flex-direction: column;
+}
 .Image{
     position: relative;
 }
+
 #Text{
     position: absolute;
     top: 0;
@@ -60,6 +73,5 @@
 
         font-size: 7em;
     }
-
     
 }

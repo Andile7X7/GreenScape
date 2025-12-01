@@ -10,6 +10,12 @@ import Footer from './Footer.jsx'
 import Form from "./Form.jsx"
 import DHeader from './DHeader.jsx'
 import DLandingPage from './DLandingPage.jsx'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home.jsx'
+// import Services from './pages/Services.jsx'
+import Gallery from './pages/Gallery.jsx'
+import LandScape from './LandScape.jsx'
+
 
 
 function App() {
@@ -17,15 +23,14 @@ function App() {
 
   return (
     <>
-      <Header MenuOpen={MenuOpen} setMenuOpen ={setMenuOpen}/>
-      <HiddenMenu MenuOpen = {MenuOpen}/>
-      <LandingPicture/>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Form/>
-      <Footer/>
-    </>
+      <DHeader/>
+        <Routes>
+          <Route path='/GreenScape/' element={<Home/>}/>
+          <Route path='/GreenScape/Gallery' element={<Gallery/>}/>
+
+        </Routes>
+
+      </>
   )
 
 }

@@ -1,6 +1,7 @@
 
 import styles from './Dheader.module.css';
-import logo from '../src/assets/drawing.svg'
+import logo from '../src/assets/drawing2.svg'
+import { Link } from 'react-router-dom';
 
 function DHeader(){
     return(
@@ -11,10 +12,10 @@ function DHeader(){
                 <h6>GreenScape<br/>Solutions</h6>
                 <div className={styles.Nav}>
                     <ul>
-                        <li>Services</li>
-                        <li>Gallery</li>
-                        <li>Contact</li>
-                        <li>About</li>
+                        <li> <Link to="/GreenScape/">Home</Link></li>
+                        <li> <Link to="/GreenScape/Gallery">Gallery</Link></li>
+                        <li> <Link to='/GreenScape/Contact'>Contact</Link></li>
+                        <li> <Link to='GreenScape/About'>About</Link></li>
                     </ul>
                 </div>
             </div>

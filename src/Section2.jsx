@@ -16,7 +16,7 @@ function Section2(){
         <MdWork size={80}  style={{color:"#176004ff"}}/>
         <h2>Our Work</h2>
         </div>
-
+        <div className= {styles.ImageWrapper}>
         <div className={styles.Image}>
             <img src={image1} alt="Image of Landscape Garden" id={styles.Image1}/>
             <h1 id={styles.Text}>Land<br/>scaping</h1>
@@ -28,8 +28,9 @@ function Section2(){
         <div className={styles.Image}>
             <img src={image3} alt="Image of Landscape Garden" id={styles.Image1}/>
             <h1 id={styles.Text}>Boma's &<br/>Entertainment</h1>
-             <button id={styles.Button}>Get In Contact <IoIosCall/></button>
         </div>
+        </div>
+        <button id={styles.Button}>Get In Contact <IoIosCall/></button>
         </div>
 
         </>
